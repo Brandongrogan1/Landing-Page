@@ -18,7 +18,6 @@ img {
     width: 450;
     margin-top: 50px;
 }
-
 .logo-and-links {
     display: flex;
     justify-content: space-between;
@@ -26,7 +25,6 @@ img {
     padding-right: 200px;
     padding-top: 20px;
 }
-
 h2{
     margin: 0px;
     font-size: 24px;
@@ -55,7 +53,8 @@ h1 {
     color: #F9FAF8;
     margin-bottom: 0px;
 }
-p {
+
+.paragraph1 {
     font-size: 18px;
     color: #E5E7EB;
     margin-top: 0px;
@@ -72,8 +71,82 @@ p {
 
 button {
     padding: 10px;
-    background-color: #0492C2;
+    background-color: #3882F6;
     border-radius: 5px;
     border: none;
     color: white;
+}
+
+h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+.container-for-pics-and-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+ .p2 {
+    color: #222222;
+}
+
+.image-text1 {
+    text-align: center;
+    max-width: 250px;
+
+}
+.image-text2 {
+    text-align: center;
+    max-width: 250px;
+}
+.image-text3 {
+text-align: center;
+max-width: 250px;
+}
+.image-text4 {
+text-align: center;
+max-width: 250px;
+}
+.quote-container {
+background-color: #E5E7EB;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 50px;
+}
+.another-class {
+    max-width: 700px;
+}
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+.headingfour {
+    font-size: 20px;
+    color: black;
+    text-align: right;
+}
+    
+.cta-and-button {
+    display: flex;
+    background-color: #3882F6;
+    margin: 50px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hfive {
+    color: #F9FAF8;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.pfive {
+    color: #E5E7EB;
+    font-size: 14px;
+    margin-top: 0;
 }
